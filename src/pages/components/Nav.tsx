@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Avatar from "/avatar.png";
+import Avatar from "/steve.webp";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "../../utils/useMediaQuery";
 import { navMotion, itemMotion } from "../../utils/variants";
@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <nav className="relative  mb-24 flex  justify-between items-center pt-12 pb-6 mx-8 font-medium md:mx-16 lg:mx-32">
       <div className="">
-        <img src={Avatar} alt="Avatar" className="bg-transparent" />
+        <img src={Avatar} alt="Avatar" className="w-12 h-12 rounded-full" />
       </div>
       <svg
         className="absolute bottom-0 left-1/2 -translate-x-1/2"
@@ -30,7 +30,7 @@ const Nav = () => {
 
       <h1 className="text-lg font-bold">
         <a href="/" className="">
-          Hua.
+          Steve
         </a>
       </h1>
 
